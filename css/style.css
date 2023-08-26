@@ -14,6 +14,7 @@ h3 {
 }
 
 ul {
+  padding: 0 15px;
   list-style-type: circle;
 }
 
@@ -37,5 +38,10 @@ footer p {
   }
   a:visited {
     color: #8e96f0;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    padding: 5%;
   }
 }
